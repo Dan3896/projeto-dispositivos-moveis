@@ -1,8 +1,8 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.UPCampusPlus" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/roxo</item>
+        <item name="colorSecondary">@color/roxo_claro</item>
     </style>
 
     <style name="Theme.UPCampusPlus" parent="Base.Theme.UPCampusPlus" />

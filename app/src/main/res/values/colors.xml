@@ -2,4 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="roxo">#FF2A1B6E</color>
+    <color name="roxo_claro">#FF6B5CE7</color>
+    <color name="prioridade_alta">#FFD32F2F</color>
+    <color name="prioridade_media">#FFF9A825</color>
+    <color name="prioridade_baixa">#FF388E3C</color>
 </resources>

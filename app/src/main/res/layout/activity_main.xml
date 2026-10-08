@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/main"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -13,12 +10,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="UP Campus+"
-        android:textSize="40sp" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Agenda Barva"
-        android:textSize="20sp" />
+        android:text="Planner Pessoal"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Gaste menos energia organizando o que precisa fazer."
+        android:textSize="14sp" />
+
     <Button
         android:id="@+id/btnComecar"
         android:layout_width="match_parent"
