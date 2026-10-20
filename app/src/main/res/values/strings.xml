@@ -1,3 +1,148 @@
 <resources>
-    <string name="app_name">UPCampusPlus</string>
+    <string name="app_name">Clarity</string>
+
+    <!-- Navegação -->
+    <string name="nav_today">Hoje</string>
+    <string name="nav_tasks">Tarefas</string>
+    <string name="nav_history">Histórico</string>
+
+    <!-- Início e erros gerais -->
+    <string name="startup_error">Não foi possível iniciar o app</string>
+    <string name="load_error">Não foi possível carregar os dados</string>
+    <string name="action_retry">Tentar de novo</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- Boas-vindas -->
+    <string name="welcome_title">Organize com leveza</string>
+    <string name="welcome_subtitle">Gaste menos energia organizando o que precisa fazer</string>
+    <string name="welcome_card_title">Planner Pessoal</string>
+    <string name="welcome_card_text">Registre tarefas por área da vida, veja o que vence hoje e acompanhe o que já fez.</string>
+    <string name="chip_area">Área</string>
+    <string name="chip_priority">Prioridade</string>
+    <string name="chip_due">Prazo</string>
+    <string name="chip_status">Status</string>
+    <string name="welcome_start">Começar</string>
+    <string name="benefits_title">Feito para o dia a dia</string>
+    <string name="benefit_fast">Só o título é obrigatório: registre em poucos toques</string>
+    <string name="benefit_today">Veja o que vence hoje e quanto já fez</string>
+    <string name="benefit_local">Sem cadastro. Tudo salvo no próprio aparelho</string>
+
+    <!-- Hoje -->
+    <string name="today_title">Hoje</string>
+    <string name="today_subtitle">%1$s · %2$s</string>
+    <string name="today_count_one">%d tarefa para hoje</string>
+    <string name="today_count_other">%d tarefas para hoje</string>
+    <string name="xp_total">%d XP</string>
+    <string name="xp_total_description">Total de pontos de experiência: %d</string>
+    <string name="counter_due">Para hoje</string>
+    <string name="counter_overdue_one">Atrasada</string>
+    <string name="counter_overdue_other">Atrasadas</string>
+    <string name="counter_completed_one">Concluída</string>
+    <string name="counter_completed_other">Concluídas</string>
+    <string name="section_due">Para hoje</string>
+    <string name="action_new_task">Nova tarefa</string>
+    <string name="action_all_tasks">Todas as tarefas</string>
+    <string name="today_hint">Marque para concluir · segure para remover</string>
+    <string name="empty_today">Nada para hoje</string>
+    <string name="empty_today_hint">Toque em Nova tarefa para registrar algo.</string>
+    <string name="empty_today_done">Tudo feito por hoje</string>
+
+    <!-- Tarefas -->
+    <string name="tasks_title">Tarefas</string>
+    <string name="tasks_subtitle">Capture no Inbox, organize por área</string>
+    <string name="tab_inbox">Inbox</string>
+    <string name="tab_inbox_count">Inbox (%d)</string>
+    <string name="tab_all">Todas</string>
+    <string name="filter_all_areas">Todas as áreas</string>
+    <string name="section_pending">Pendentes</string>
+    <string name="section_completed">Concluídas</string>
+    <string name="task_count_one">%d tarefa</string>
+    <string name="task_count_other">%d tarefas</string>
+    <string name="empty_pending">Nenhuma tarefa pendente</string>
+    <string name="empty_completed">Nenhuma tarefa concluída</string>
+    <string name="empty_area">Nenhuma tarefa nesta área</string>
+
+    <!-- Cartão de tarefa -->
+    <string name="badge_overdue">ATRASADA</string>
+    <string name="badge_inbox">INBOX</string>
+    <string name="priority_high">Alta</string>
+    <string name="priority_medium">Média</string>
+    <string name="priority_low">Baixa</string>
+    <string name="task_meta">%1$s · %2$s · %3$s</string>
+    <string name="state_completed">Concluída</string>
+    <string name="state_pending">Pendente</string>
+    <string name="action_remove_task">Remover tarefa</string>
+    <string name="action_edit_task">Editar tarefa</string>
+    <string name="action_organize_task">Organizar tarefa</string>
+    <string name="remove_task_title">Remover esta tarefa?</string>
+    <string name="action_remove">Remover</string>
+
+    <!-- Mensagens de tarefa -->
+    <string name="msg_task_created">Tarefa criada</string>
+    <string name="msg_task_saved">Alterações salvas</string>
+    <string name="msg_task_completed">Tarefa concluída</string>
+    <string name="msg_task_completed_xp">Tarefa concluída · +%d XP</string>
+    <string name="msg_task_removed">Tarefa removida</string>
+    <string name="msg_task_organized">Tarefa organizada</string>
+    <string name="msg_moved_to_inbox">Tarefa movida para o Inbox</string>
+    <string name="action_undo">Desfazer</string>
+    <string name="err_save">Não foi possível salvar. Tente de novo.</string>
+    <string name="err_complete">Não foi possível concluir. Tente de novo.</string>
+    <string name="err_reopen">Não foi possível reabrir. Tente de novo.</string>
+    <string name="err_remove">Não foi possível remover. Tente de novo.</string>
+    <string name="err_task_missing">Esta tarefa não existe mais</string>
+
+    <!-- Formulário -->
+    <string name="form_new_title">Nova tarefa</string>
+    <string name="form_edit_title">Editar tarefa</string>
+    <string name="form_organize_title">Organizar tarefa</string>
+    <string name="form_subtitle">Anote rápido e volte ao que importa</string>
+    <string name="form_organize_subtitle">Escolha a área e, se quiser, uma data</string>
+    <string name="field_title">Título</string>
+    <string name="field_title_error">Informe um título</string>
+    <string name="field_counter">%1$d/%2$d</string>
+    <string name="field_area">Área</string>
+    <string name="field_area_error">Escolha uma área</string>
+    <string name="field_priority">Prioridade</string>
+    <string name="field_due">Prazo</string>
+    <string name="due_today">Hoje, %s</string>
+    <string name="due_none">Sem prazo</string>
+    <string name="due_change">Alterar</string>
+    <string name="due_set">Definir</string>
+    <string name="due_change_description">Alterar prazo</string>
+    <string name="due_clear">Remover prazo</string>
+    <string name="action_save">Salvar</string>
+    <string name="action_organize">Organizar</string>
+    <string name="action_move_to_inbox">Mover para o Inbox</string>
+    <string name="action_ok">OK</string>
+    <string name="tip_title">Dica</string>
+    <string name="tip_text">Tarefas com prazo até hoje aparecem na tela Hoje, ordenadas por prioridade. Sem prazo, ficam só em Todas.</string>
+    <string name="tip_organize">Ao organizar, a tarefa sai do Inbox. Com prazo até hoje, ela aparece em Hoje; sem prazo, fica em Todas.</string>
+    <string name="discard_title">Descartar alterações?</string>
+    <string name="discard_text">O que você mudou não será salvo.</string>
+    <string name="action_discard">Descartar</string>
+    <string name="action_keep_editing">Continuar editando</string>
+
+    <!-- Inbox -->
+    <string name="capture_label">Anote uma tarefa</string>
+    <string name="capture_add">Adicionar ao Inbox</string>
+    <string name="section_to_organize">Para organizar</string>
+    <string name="captured_at">Capturada: %s</string>
+    <string name="empty_inbox">Inbox vazio</string>
+    <string name="empty_inbox_hint">Anote acima o que precisa fazer e toque em +. Área e data ficam para depois.</string>
+    <string name="remove_inbox_text">Ela sai do Inbox e de todas as listas.</string>
+    <string name="msg_captured">Tarefa adicionada ao Inbox</string>
+    <string name="err_capture">Não foi possível adicionar. Tente de novo.</string>
+
+    <!-- Histórico -->
+    <string name="history_title">Histórico</string>
+    <string name="history_subtitle">O que você concluiu, por área</string>
+    <string name="search_history">Buscar no histórico</string>
+    <string name="clear_search">Limpar busca</string>
+    <string name="day_today">Hoje</string>
+    <string name="day_yesterday">Ontem</string>
+    <string name="history_completed">Concluiu %s</string>
+    <string name="history_empty">Tarefas concluídas aparecem aqui.</string>
+    <string name="history_no_results">Nada encontrado para “%s”</string>
+    <string name="history_area_count">%1$d registros em %2$s</string>
 </resources>
