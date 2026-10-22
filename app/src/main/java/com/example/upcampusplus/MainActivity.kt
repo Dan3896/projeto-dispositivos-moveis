@@ -1,22 +1,31 @@
 package com.example.upcampusplus
 
-import android.app.Activity
-import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
-import android.widget.Button
+import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
+import androidx.activity.compose.setContent
+import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.background
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.ui.Modifier
+import com.example.upcampusplus.ui.ClarityApp
+import com.example.upcampusplus.ui.theme.ClarityTheme
 
-class MainActivity : Activity() {
+class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-
-        val btn = findViewById<Button>(R.id.btnComecar)
-        btn.setOnClickListener {
-            val intent = Intent(
-                this,
-                AgendaActivity::class.java
-            )
-            startActivity(intent)
+        // Cabeçalho escuro atrás da barra de status: ícones claros.
+        enableEdgeToEdge(statusBarStyle = SystemBarStyle.dark(Color.TRANSPARENT))
+        val container = (application as ClarityApplication).container
+        setContent {
+            ClarityTheme {
+                Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.background)) {
+                    ClarityApp(container)
+                }
+            }
         }
     }
 }
